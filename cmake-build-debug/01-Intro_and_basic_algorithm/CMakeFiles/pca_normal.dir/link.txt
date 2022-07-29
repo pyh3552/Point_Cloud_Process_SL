@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/pca_normal.dir/code/pca_normal_main.cpp.o CMakeFiles/pca_normal.dir/code/include/pca_normal.cpp.o -o pca_normal 
