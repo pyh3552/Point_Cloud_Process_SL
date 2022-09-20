@@ -1,0 +1,20 @@
+include_directories(code)
+include_directories(code/include)
+
+find_package(PCL)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+add_executable(ICP-test code/ICP-test.cpp)
+add_executable(RANSAC-Registration code/RANSAC-Registration-test.cpp)
+add_executable(Pipeline code/Pipeline.cpp)
+add_executable(Test code/Test.cpp)
+add_executable(kdtree-knn-4d code/kdtree-knn-4d.cpp)
+add_executable(pcl_icp code/pcl_icp.cpp)
+
+target_link_libraries(ISS-test ${PCL_LIBRARIES})
+target_link_libraries(RANSAC-Registration ${PCL_LIBRARIES})
+target_link_libraries(Pipeline ${PCL_LIBRARIES})
+target_link_libraries(Test ${PCL_LIBRARIES})
+target_link_libraries(pcl_icp ${PCL_LIBRARIES})

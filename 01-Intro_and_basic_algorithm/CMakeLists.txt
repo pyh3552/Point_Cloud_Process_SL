@@ -11,10 +11,7 @@ include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 add_definitions(${Boost_DEFINITIONS})
 
-find_package(Thread)
-include_directories(${Thread_INCLUDE_DIRS})
-link_directories(${Thread_LIBRARY_DIRS})
-add_definitions(${Thread_DEFINITIONS})
+
 
 add_executable(pca_normal_main code/pca_normal_main.cpp code/include/pca_normal.cpp)
 target_link_libraries(pca_normal_main ${PCL_LIBRARIES})

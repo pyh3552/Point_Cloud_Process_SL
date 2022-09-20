@@ -5,7 +5,7 @@
 		<Option title="Point_Cloud_Process_SL"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\pcl-1.12\;CMake Files\..\..\..\..\..\usr\local\share\pcl-1.12\Modules\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_serialization-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\patches\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\patches\99\;CMake Files\01-Intro_and_basic_algorithm\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\pcl-1.12\;CMake Files\..\..\..\..\..\usr\local\share\pcl-1.12\Modules\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_serialization-1.79.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\patches\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\vtk-9.1\patches\99\;CMake Files\01-Intro_and_basic_algorithm\;CMake Files\02-Nearest-Neighbor-Problem\;CMake Files\03-Clustering\;CMake Files\04-Model-Fitting\;CMake Files\07-Feature-Detection\;CMake Files\08-Feature-Description\;CMake Files\09-Registration\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug"/>
@@ -549,6 +549,1718 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/01-Intro_and_basic_algorithm/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="octree-easy">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/octree-easy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 octree-easy"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="octree-easy/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/octree-easy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 octree-easy/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-test-pc">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-test-pc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-test-pc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-test-pc/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-test-pc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-test-pc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-vis">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-vis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-vis"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-vis/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/kdtree-vis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 kdtree-vis/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="octree-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/octree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 octree-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="octree-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/octree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 octree-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="K-means-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/K-means-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 K-means-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="K-means-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/K-means-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 K-means-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GMM-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/GMM-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 GMM-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GMM-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/GMM-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 GMM-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sepctral_Clustering_test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Sepctral_Clustering_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 Sepctral_Clustering_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sepctral_Clustering_test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Sepctral_Clustering_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 Sepctral_Clustering_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="K-means-K-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/K-means-K-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 K-means-K-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="K-means-K-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/K-means-K-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 K-means-K-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RANSAC_test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/RANSAC_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 RANSAC_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RANSAC_test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/RANSAC_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 RANSAC_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbscan_test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/dbscan_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 dbscan_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbscan_test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/dbscan_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 dbscan_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISS-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/ISS-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 ISS-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISS-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/ISS-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 ISS-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FPFH-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/FPFH-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 FPFH-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FPFH-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/FPFH-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 FPFH-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcl_icp">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/pcl_icp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 pcl_icp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcl_icp/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/pcl_icp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 pcl_icp/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-knn-4d">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/kdtree-knn-4d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 kdtree-knn-4d"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kdtree-knn-4d/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/kdtree-knn-4d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 kdtree-knn-4d/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ICP-test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/ICP-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 ICP-test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ICP-test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/ICP-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 ICP-test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pipeline">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 Pipeline"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pipeline/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 Pipeline/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RANSAC-Registration">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/RANSAC-Registration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 RANSAC-Registration"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RANSAC-Registration/fast">
+				<Option output="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/RANSAC-Registration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_DYN_LINK"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add option="-Dkiss_fft_scalar=double"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code"/>
+					<Add directory="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/include"/>
+					<Add directory="/usr/local/include/pcl-1.12"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/local/include/vtk-9.1"/>
+					<Add directory="/usr/local/include/vtk-9.1/vtkfreetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 RANSAC-Registration/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/01-Intro_and_basic_algorithm/code/add_noise.cpp">
 			<Option target="add_noise"/>
@@ -576,6 +2288,66 @@
 		</Unit>
 		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/01-Intro_and_basic_algorithm/code/voxel_filter_main.cpp">
 			<Option target="voxel_filter_main"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/kdtree-test-pc.cpp">
+			<Option target="kdtree-test-pc"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/kdtree-test.cpp">
+			<Option target="kdtree-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/kdtree-vis.cpp">
+			<Option target="kdtree-vis"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/octree-easy.cpp">
+			<Option target="octree-easy"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/code/octree-test.cpp">
+			<Option target="octree-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/GMM-test.cpp">
+			<Option target="GMM-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/K-means-K-test.cpp">
+			<Option target="K-means-K-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/K-means-test.cpp">
+			<Option target="K-means-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/code/Sepctral_Clustering_test.cpp">
+			<Option target="Sepctral_Clustering_test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/Dbscan-test.cpp">
+			<Option target="dbscan_test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/code/RANSAC-test.cpp">
+			<Option target="RANSAC_test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/code/ISS-test.cpp">
+			<Option target="ISS-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/FPFH-test.cpp">
+			<Option target="FPFH-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/code/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/ICP-test.cpp">
+			<Option target="ICP-test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/Pipeline.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/RANSAC-Registration-test.cpp">
+			<Option target="RANSAC-Registration"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/Test.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/kdtree-knn-4d.cpp">
+			<Option target="kdtree-knn-4d"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/code/pcl_icp.cpp">
+			<Option target="pcl_icp"/>
 		</Unit>
 		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/main.cpp">
 			<Option target="view"/>
@@ -744,6 +2516,24 @@
 		</Unit>
 		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/01-Intro_and_basic_algorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\01-Intro_and_basic_algorithm\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/02-Nearest-Neighbor-Problem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02-Nearest-Neighbor-Problem\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/03-Clustering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\03-Clustering\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/04-Model-Fitting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\04-Model-Fitting\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/07-Feature-Detection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\07-Feature-Detection\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/08-Feature-Description/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\08-Feature-Description\"/>
+		</Unit>
+		<Unit filename="/home/pyh/文档/GitHub/Point_Cloud_Process_SL/09-Registration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\09-Registration\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -207,6 +207,266 @@ bil_filter_NorBased/fast:
 	$(MAKE) $(MAKESILENT) -f 01-Intro_and_basic_algorithm/CMakeFiles/bil_filter_NorBased.dir/build.make 01-Intro_and_basic_algorithm/CMakeFiles/bil_filter_NorBased.dir/build
 .PHONY : bil_filter_NorBased/fast
 
+#=============================================================================
+# Target rules for targets named octree-easy
+
+# Build rule for target.
+octree-easy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 octree-easy
+.PHONY : octree-easy
+
+# fast build rule for target.
+octree-easy/fast:
+	$(MAKE) $(MAKESILENT) -f 02-Nearest-Neighbor-Problem/CMakeFiles/octree-easy.dir/build.make 02-Nearest-Neighbor-Problem/CMakeFiles/octree-easy.dir/build
+.PHONY : octree-easy/fast
+
+#=============================================================================
+# Target rules for targets named kdtree-test
+
+# Build rule for target.
+kdtree-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kdtree-test
+.PHONY : kdtree-test
+
+# fast build rule for target.
+kdtree-test/fast:
+	$(MAKE) $(MAKESILENT) -f 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-test.dir/build.make 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-test.dir/build
+.PHONY : kdtree-test/fast
+
+#=============================================================================
+# Target rules for targets named kdtree-test-pc
+
+# Build rule for target.
+kdtree-test-pc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kdtree-test-pc
+.PHONY : kdtree-test-pc
+
+# fast build rule for target.
+kdtree-test-pc/fast:
+	$(MAKE) $(MAKESILENT) -f 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-test-pc.dir/build.make 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-test-pc.dir/build
+.PHONY : kdtree-test-pc/fast
+
+#=============================================================================
+# Target rules for targets named kdtree-vis
+
+# Build rule for target.
+kdtree-vis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kdtree-vis
+.PHONY : kdtree-vis
+
+# fast build rule for target.
+kdtree-vis/fast:
+	$(MAKE) $(MAKESILENT) -f 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-vis.dir/build.make 02-Nearest-Neighbor-Problem/CMakeFiles/kdtree-vis.dir/build
+.PHONY : kdtree-vis/fast
+
+#=============================================================================
+# Target rules for targets named octree-test
+
+# Build rule for target.
+octree-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 octree-test
+.PHONY : octree-test
+
+# fast build rule for target.
+octree-test/fast:
+	$(MAKE) $(MAKESILENT) -f 02-Nearest-Neighbor-Problem/CMakeFiles/octree-test.dir/build.make 02-Nearest-Neighbor-Problem/CMakeFiles/octree-test.dir/build
+.PHONY : octree-test/fast
+
+#=============================================================================
+# Target rules for targets named K-means-test
+
+# Build rule for target.
+K-means-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 K-means-test
+.PHONY : K-means-test
+
+# fast build rule for target.
+K-means-test/fast:
+	$(MAKE) $(MAKESILENT) -f 03-Clustering/CMakeFiles/K-means-test.dir/build.make 03-Clustering/CMakeFiles/K-means-test.dir/build
+.PHONY : K-means-test/fast
+
+#=============================================================================
+# Target rules for targets named GMM-test
+
+# Build rule for target.
+GMM-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GMM-test
+.PHONY : GMM-test
+
+# fast build rule for target.
+GMM-test/fast:
+	$(MAKE) $(MAKESILENT) -f 03-Clustering/CMakeFiles/GMM-test.dir/build.make 03-Clustering/CMakeFiles/GMM-test.dir/build
+.PHONY : GMM-test/fast
+
+#=============================================================================
+# Target rules for targets named Sepctral_Clustering_test
+
+# Build rule for target.
+Sepctral_Clustering_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sepctral_Clustering_test
+.PHONY : Sepctral_Clustering_test
+
+# fast build rule for target.
+Sepctral_Clustering_test/fast:
+	$(MAKE) $(MAKESILENT) -f 03-Clustering/CMakeFiles/Sepctral_Clustering_test.dir/build.make 03-Clustering/CMakeFiles/Sepctral_Clustering_test.dir/build
+.PHONY : Sepctral_Clustering_test/fast
+
+#=============================================================================
+# Target rules for targets named K-means-K-test
+
+# Build rule for target.
+K-means-K-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 K-means-K-test
+.PHONY : K-means-K-test
+
+# fast build rule for target.
+K-means-K-test/fast:
+	$(MAKE) $(MAKESILENT) -f 03-Clustering/CMakeFiles/K-means-K-test.dir/build.make 03-Clustering/CMakeFiles/K-means-K-test.dir/build
+.PHONY : K-means-K-test/fast
+
+#=============================================================================
+# Target rules for targets named RANSAC_test
+
+# Build rule for target.
+RANSAC_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RANSAC_test
+.PHONY : RANSAC_test
+
+# fast build rule for target.
+RANSAC_test/fast:
+	$(MAKE) $(MAKESILENT) -f 04-Model-Fitting/CMakeFiles/RANSAC_test.dir/build.make 04-Model-Fitting/CMakeFiles/RANSAC_test.dir/build
+.PHONY : RANSAC_test/fast
+
+#=============================================================================
+# Target rules for targets named dbscan_test
+
+# Build rule for target.
+dbscan_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dbscan_test
+.PHONY : dbscan_test
+
+# fast build rule for target.
+dbscan_test/fast:
+	$(MAKE) $(MAKESILENT) -f 04-Model-Fitting/CMakeFiles/dbscan_test.dir/build.make 04-Model-Fitting/CMakeFiles/dbscan_test.dir/build
+.PHONY : dbscan_test/fast
+
+#=============================================================================
+# Target rules for targets named ISS-test
+
+# Build rule for target.
+ISS-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ISS-test
+.PHONY : ISS-test
+
+# fast build rule for target.
+ISS-test/fast:
+	$(MAKE) $(MAKESILENT) -f 07-Feature-Detection/CMakeFiles/ISS-test.dir/build.make 07-Feature-Detection/CMakeFiles/ISS-test.dir/build
+.PHONY : ISS-test/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f 08-Feature-Description/CMakeFiles/test.dir/build.make 08-Feature-Description/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named FPFH-test
+
+# Build rule for target.
+FPFH-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FPFH-test
+.PHONY : FPFH-test
+
+# fast build rule for target.
+FPFH-test/fast:
+	$(MAKE) $(MAKESILENT) -f 08-Feature-Description/CMakeFiles/FPFH-test.dir/build.make 08-Feature-Description/CMakeFiles/FPFH-test.dir/build
+.PHONY : FPFH-test/fast
+
+#=============================================================================
+# Target rules for targets named pcl_icp
+
+# Build rule for target.
+pcl_icp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pcl_icp
+.PHONY : pcl_icp
+
+# fast build rule for target.
+pcl_icp/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/pcl_icp.dir/build.make 09-Registration/CMakeFiles/pcl_icp.dir/build
+.PHONY : pcl_icp/fast
+
+#=============================================================================
+# Target rules for targets named kdtree-knn-4d
+
+# Build rule for target.
+kdtree-knn-4d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kdtree-knn-4d
+.PHONY : kdtree-knn-4d
+
+# fast build rule for target.
+kdtree-knn-4d/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/kdtree-knn-4d.dir/build.make 09-Registration/CMakeFiles/kdtree-knn-4d.dir/build
+.PHONY : kdtree-knn-4d/fast
+
+#=============================================================================
+# Target rules for targets named ICP-test
+
+# Build rule for target.
+ICP-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ICP-test
+.PHONY : ICP-test
+
+# fast build rule for target.
+ICP-test/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/ICP-test.dir/build.make 09-Registration/CMakeFiles/ICP-test.dir/build
+.PHONY : ICP-test/fast
+
+#=============================================================================
+# Target rules for targets named Pipeline
+
+# Build rule for target.
+Pipeline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pipeline
+.PHONY : Pipeline
+
+# fast build rule for target.
+Pipeline/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/Pipeline.dir/build.make 09-Registration/CMakeFiles/Pipeline.dir/build
+.PHONY : Pipeline/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/Test.dir/build.make 09-Registration/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+#=============================================================================
+# Target rules for targets named RANSAC-Registration
+
+# Build rule for target.
+RANSAC-Registration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RANSAC-Registration
+.PHONY : RANSAC-Registration
+
+# fast build rule for target.
+RANSAC-Registration/fast:
+	$(MAKE) $(MAKESILENT) -f 09-Registration/CMakeFiles/RANSAC-Registration.dir/build.make 09-Registration/CMakeFiles/RANSAC-Registration.dir/build
+.PHONY : RANSAC-Registration/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -242,10 +502,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... FPFH-test"
+	@echo "... GMM-test"
+	@echo "... ICP-test"
+	@echo "... ISS-test"
+	@echo "... K-means-K-test"
+	@echo "... K-means-test"
+	@echo "... Pipeline"
+	@echo "... RANSAC-Registration"
+	@echo "... RANSAC_test"
+	@echo "... Sepctral_Clustering_test"
+	@echo "... Test"
 	@echo "... add_noise"
 	@echo "... bil-csdn"
 	@echo "... bil_filter_NorBased"
+	@echo "... dbscan_test"
+	@echo "... kdtree-knn-4d"
+	@echo "... kdtree-test"
+	@echo "... kdtree-test-pc"
+	@echo "... kdtree-vis"
+	@echo "... octree-easy"
+	@echo "... octree-test"
 	@echo "... pca_normal_main"
+	@echo "... pcl_icp"
+	@echo "... test"
 	@echo "... view"
 	@echo "... voxel_filter_main"
 	@echo "... main.o"

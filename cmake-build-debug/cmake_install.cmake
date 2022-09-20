@@ -47,6 +47,36 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/01-Intro_and_basic_algorithm/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/02-Nearest-Neighbor-Problem/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/03-Clustering/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/04-Model-Fitting/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/07-Feature-Detection/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/08-Feature-Description/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/pyh/文档/GitHub/Point_Cloud_Process_SL/cmake-build-debug/09-Registration/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
